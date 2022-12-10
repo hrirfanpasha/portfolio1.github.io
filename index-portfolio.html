@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irfan Portfolio</title>
+    <link rel="stylesheet" href="style-portfolio.css">
+
+    <script src="https://kit.fontawesome.com/01c5b72c9e.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>
+                <h1>Hi,I'm<span> H R Irfan </span>Pasha,<br> from Bangalore</h1>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!------ about -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a Fresher, Eager to work in Software testing/Front-end development/Technical support.
+                        And to achieve a position in a company and learn to work and utilize my skills efficiently.</p><br>
+
+                    <ul ><i>
+                        <li>Graduation from R V COLLEGE OF ENGINEERING, Bangalore from in 2021.</li>
+                        <li>Completed my diploma in APS polytechnic (2018)</li>
+                        <li>Coming to my strengths I'm good with interpersonal skills, hardworking, easy to learn </li>
+                                quickly, self-motivated and confident with a positive attitude.</li>
+                        <!-- <li>Testing on Web-based application.</li> -->
+                            <li>Good exposure on SDLC & STLC.</li>
+                                <li>Good Knowledge in Manual Testing.</li>
+                                    <li>Knowledge in Database(SQL).</li>
+                                        <li>Enrolled for Software Testing, Networking, Frontend development Courses.</li>
+                    </i></ul>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certification')">certification</p>
+                        <p class="tab-links" onclick="opentab('MajorProject')"> MajorProject</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/app interfaces using HTML,CSS,JAVASCRIPT, JQuery (Basic).</li>
+                            <li><span>Back-end</span><br>C,ASP.NET MVC(Basics),SQL</li>
+                            <!-- <li><span>App development</span><br>Android/IOS</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021- current</span><br> I am a Fresher, Eager to work in Software testing/Front-end development/Technical support.
+                                And to achieve a position in a company and learn to work and utilize my skills efficiently </li>
+                            </li>
+                                <li>Testing on Web-based application</li>
+                                <li>Good exposure on SDLC & STLC.</li>
+                                <li>Good Knowledge in Manual Testing.</li>
+                                <li>Knowledge in Database(SQL).</li>
+                                <li>Enrolled for Software Testing, Networking, Frontend development Courses.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                           
+                            <li><span>2018 - 2021</span><br>Graduation from R V COLLEGE OF ENGINEERING, Bangalore</li>
+                            <li><span>2015 - 2018</span><br>Completed diploma with the specialization in Computer scince
+                            <li><span>2015</span><br>Did my Schooling in N.E.H.S,Bangalore </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="certification">
+                        <ul>
+                            <li><span>ON-GOING</span><br>Cisco certified Network Associate (CCNA) course</li>
+                            <li><span> NPTEL</span><br> Design and Analysis of Algorithms.</li>   
+                               <li><span>MOOC</span><br>Introduction to User Experience Design </li>
+                               <li><span>GREAT LEARNING PLATFORM</span><br>W3Schools, csharpcorner etc.
+                                Software Testing, frontend development, Basic SQL </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="MajorProject">
+                        <ul>
+                            <li><span>FISH DETECTION AND SPECIES CLASSIFICATION USING MASK RCNN</span><br>The proposed project focuses on fish detection and species classification, this aims to help in 
+                                order to maintain ecological balance we must take necessary measures and consider catching 
+                                those fishes which are going extinct to be illegal. It is difficult for a human being to keep track of 
+                                illicit fishing. Based on the results obtained so far, we can set up surveillance cameras on the 
+                                fishing boats and capture the images at regular intervals and feed them to the model. So that the 
+                                model can detect the type of fish and notify the authorities if it was an illegal fishing using 
+                                Machine Learning techniques.
+                                </li>
+                            <li><span> technologies used </span><br>  Python, ML model.</li>   
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------services------------------>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        What is the Web design ?
+                        Image result for Web Design
+                        Web design is the creation of websites and pages to reflect a company's brand and information and ensure a user-friendly experience
+                    </p>
+                    <a href="https://www.interaction-design.org/literature/topics/web-design">learn more</a>
+                </div>
+
+                <div>
+
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>
+                        What is UI UX designing?
+                        Image result for ui/ux design
+                        UI refers to the screens, buttons,
+                        toggles, icons, and other visual elements that you interact with when using a website, app, or other electronic device. UX refers to the entire interaction you have with a product, including how you feel about the interaction.
+                    </p>
+                    <a href="https://www.freecodecamp.org/news/ui-ux-design-guide/">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Editing/Design</h2>
+                    <p>
+                        Design editors lay out ads and text for online and print-based publishing companies. They create designs either by hand or by using computer software, with the goal of communicating a message to those who will view their work. They often are tasked with developing logos, illustrations or product packages.
+                        so,i'm using Canvas software for editing and designing,if you wanna learn more click below. 
+                    </p>
+                    <a href="https://www.canva.com/q/pro/?v=745&utm_content=745_control&gclid=Cj0KCQiAkMGcBhCSARIsAIW6d0CotYVnNoO7kIEyYDp5xm4kYO5u5CMTy6CxfM1sGVS8Vv-_BMDDPuoaAlzkEALw_wcB&gclsrc=aw.ds">learn more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1><br>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.jpg">
+                    <div class="layer">
+                        <h3>Portfolio</h3>
+                        <p>Designing of portfolio using front end technologies using Html,css,jS</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.jpg">
+                    <div class="layer">
+                        <h2>Hobbies</h2><br>
+                        <ul>
+                            <li>playing cricket</li><br>
+                            <li>lisenting music</li><br>
+                            <li>editing pictures</li><br>
+                            <li>Traveling</li><br>
+                        </ul>
+                        <p></p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.jpg">
+                    <div class="layer">
+                        <h2>Other Projects</h2><br>
+                        <p><ul> <li>Designing of Attendance registrar using HTML,CSS.</li><br>
+                             <li>Simple text editor using java.</li><br>
+                             <li>LIBRARY MANAGEMENT SYSTEM..</li></ul></p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="seemore"> Go to top</a>
+        </div>
+    </div>
+
+<!-- Hobbies -->
+
+
+<div id="hobbies">
+    <div class="container">
+        <h1 class="sub-title">My Hobbies</h1><br>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/hobby-2.jpg">
+                <div class="layer">
+                    <h3>Traveling</h3>
+                    <p>art of living</p>
+                    <ul><p>
+                        If you are seeing my portfolio you would have heard about this place known as the Art of Living International Center was built in 1986 and is founded by humanitarian and spiritual teacher Gurudev Sri Sri Ravi Shankar.
+                        <br><p> Apart from enjoying meditative walks and exploring the breathtaking view of the campus.</p>
+                    </p></ul>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        <div class="work">
+                <img src="images/hobby-3.jpg">
+                <div class="layer">
+                    <h2>Photograpghy</h2><br>
+                    <ul>
+                        <li>“Photography is a way of feeling, of touching, of loving. What you have caught on film is captured forever… It remembers little things, long after you have forgotten everything.”</li><br>
+                        <li>whenever i feel lonely,stressed i travel to the unknown places.</li>
+                    </ul>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+    <div class="work">
+                <img src="images/hobby-4.jpg">
+                <div class="layer">
+                    <h2>Nature</h2><br>
+                    <p><ul>
+                         <li>Nature gives escape from reality.</li><br>
+                         <li>Nature and editing is blissful joy for me.There are always two people in every picture: the photographer and the viewer</li>
+                    </ul></p><br>    
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        
+       
+
+
+    </div>
+</div><br><br>
+
+
+<!-- see more -->
+<span id="points"></span>
+<button onclick="toggleText()" id="textButton" class="seemore1">
+    Show More
+</button>
+
+<span id="moreText">
+<div class="work-list">
+    <div class="work">
+        <div id="hobbies">
+            <div class="container">
+            <center>
+            <video width="400" controls class="vid-align" width="320" heigth="240" align="right" controlsList="nodownload">
+                <source src="videos/video-1.mp4" type="video/mp4">
+                <source src="videos/video-1.ogg" type="video/ogg">
+                Your browser does not support HTML video.
+            </video>
+            <video width="400" controls class="vid-align" width="320" heigth="240" align="right" controlsList="nodownload">
+                <source src="videos/video-2.mp4" type="video/mp4">
+                <source src="videos/video-2.ogg" type="video/ogg">
+                Your browser does not support HTML video.
+            </video>
+            </center>
+                </div>
+            </div>
+        </div>
+  </div>
+</span>
+
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>pirfan369@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>7676987***</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/irfan.pasha.3910/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/irfan_4u_/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/h-r-irfan-pasha-8850bb172"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">download CV</a>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="text" name="email" placeholder="enter your e-mail" required>
+                        <textarea name="Message" rows="6" placeholder="Enter Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright <i class="fa-solid fa-copyright"></i> H R-irfan-pasha</p>
+                <h5>version 2.2</h5>
+            </div>
+        </div>
+    </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">top</button>
+        <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+
+
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+
+
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+
+
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxJL4pTKswCD3Jp8XBMdeFvj1kfHt9Brt1cDWicREeJzOJjopfWP7kArvonQQsXXXuQKg/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        msg.innerHTML = "Message sent successfully and recorded. I will be in touch very soon.."
+                        setTimeout(function () {
+                            msg.innerHTML = ""
+                        }, 5000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+<!-- hover-button -->
+
+<script>
+    // Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop >3000) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+
+
+<script>
+    function showTime(){
+    var date = new Date();
+    var h = date.getHours(); // 0 - 23
+    var m = date.getMinutes(); // 0 - 59
+    var s = date.getSeconds(); // 0 - 59
+    var session = "AM";
+    
+    if(h == 0){
+        h = 12;
+    }
+    
+    if(h > 12){
+        h = h - 12;
+        session = "PM";
+    }
+    
+    h = (h < 10) ? "0" + h : h;
+    m = (m < 10) ? "0" + m : m;
+    s = (s < 10) ? "0" + s : s;
+    
+    var time = h + ":" + m + ":" + s + " " + session;
+    document.getElementById("MyClockDisplay").innerText = time;
+    document.getElementById("MyClockDisplay").textContent = time;
+    
+    setTimeout(showTime, 1000);
+    
+}
+
+showTime();
+</script>
+
+<script>
+    function toggleText() {
+        var points = 
+            document.getElementById("points");
+
+        var showMoreText =
+            document.getElementById("moreText");
+
+        var buttonText =
+            document.getElementById("textButton");
+
+        // If the display property of the dots 
+        // to be displayed is already set to 
+        // 'none' (that is hidden) then this 
+        // section of code triggers
+        if (points.style.display === "none") {
+            showMoreText.style.display = "none";
+            points.style.display = "inline";
+            buttonText.innerHTML = "Show More";
+        }
+        else {
+
+            showMoreText.style.display = "inline";
+            points.style.display = "none";
+            buttonText.innerHTML = "Show Less";
+        }
+    }
+</script>
+
+</body>
+
+</html>
+
